@@ -17,7 +17,7 @@ var exampleInputText string
 
 func NewDay01Cmd() *cobra.Command {
 	day01Cmd := &cobra.Command{
-		Use:     "day1",
+		Use:     "day01",
 		Aliases: []string{"1"},
 		Short:   "Day 01",
 	}
